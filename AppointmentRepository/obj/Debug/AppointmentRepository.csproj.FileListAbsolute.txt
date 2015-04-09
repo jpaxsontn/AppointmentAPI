@@ -1,0 +1,7 @@
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\bin\Debug\AppointmentRepository.dll
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\bin\Debug\AppointmentRepository.pdb
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\bin\Debug\AppointmentObjects.dll
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\bin\Debug\AppointmentObjects.pdb
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\obj\Debug\AppointmentRepository.csprojResolveAssemblyReference.cache
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\obj\Debug\AppointmentRepository.dll
+c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentRepository\obj\Debug\AppointmentRepository.pdb
