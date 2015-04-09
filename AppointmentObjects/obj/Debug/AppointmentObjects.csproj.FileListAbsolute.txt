@@ -3,3 +3,5 @@ c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\Appointme
 c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentObjects\obj\Debug\AppointmentObjects.csprojResolveAssemblyReference.cache
 c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentObjects\obj\Debug\AppointmentObjects.dll
 c:\users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentObjects\obj\Debug\AppointmentObjects.pdb
+C:\Users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentObjects\bin\Debug\Nancy.dll
+C:\Users\jxpaxson\documents\visual studio 2013\Projects\AppointmentAPI\AppointmentObjects\bin\Debug\Nancy.xml

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using AppointmentAPI.Models;
 using AppointmentDomain;
 using AppointmentObjects;
 using Nancy;
@@ -18,7 +16,21 @@ namespace AppointmentAPI
             Get["/{id}"] = parameters => new JsonResponse(serviceDomain.GetService(parameters.id), new DefaultJsonSerializer());
             Post["/"] = parameters =>
             {
-                var service = this.Bind<Service>();
+                var serviceModel = this.Bind<ServiceModel>();
+                var response = serviceModel.ValidateModel();
+                if (response != null)
+                {
+                    return response;
+                }
+
+                var service = new Service
+                {
+                    Name = serviceModel.Name,
+                    Duration = TimeSpan.Parse(serviceModel.Duration),
+                    MinimumRequiredAge = serviceModel.MinimumRequiredAge,
+                    RequiredCertificationLevel = serviceModel.MinimumRequiredAge
+                };
+
                 serviceDomain.CreateService(service);
 
                 string url = string.Format("{0}/{1}", this.Context.Request.Url, service.Id);

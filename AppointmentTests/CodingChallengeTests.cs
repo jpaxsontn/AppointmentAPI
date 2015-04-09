@@ -32,5 +32,18 @@ namespace AppointmentTests
             //Assert
             Assert.IsTrue(highestScoreWord == "-1");
         }
+
+        [TestMethod]
+        public void LetterCount_Should_Return_Negetive_1_When_There_Is_An_Empty_String()
+        {
+            //Arrange
+            var letterCountDomain = new LetterCountDomain();
+
+            //Act
+            var highestScoreWord = letterCountDomain.LetterCount("");
+
+            //Assert
+            Assert.IsTrue(highestScoreWord == "-1");
+        }
     }
 }
